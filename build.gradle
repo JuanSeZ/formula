@@ -1,5 +1,7 @@
+
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.10'
 }
 
 group 'edu.austral'
@@ -9,7 +11,10 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.hamcrest:hamcrest-all:1.3'
 }
+
+
